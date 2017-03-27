@@ -1,0 +1,46 @@
+﻿/* Navigation Menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+/* Main Content */
+
+article {
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 20px 5px;
+}
+
+section {
+    background-color: darksalmon;
+}
+
+footer {
+    margin-top:20px;
+}
+
+h1.pageTitle {
+    color:red;
+}
